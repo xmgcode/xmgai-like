@@ -1,0 +1,86 @@
+package ${packageName}.admin.controller;
+
+#if(!$table.genTpl.equals("crud"))
+import com.alibaba.fastjson2.JSONArray;
+#end
+import ${packageName}.admin.aop.Log;
+import ${packageName}.admin.service.I${EntityName}Service;
+import ${packageName}.admin.validate.commons.IdValidate;
+import ${packageName}.admin.validate.${EntityName}CreateValidate;
+import ${packageName}.admin.validate.${EntityName}UpdateValidate;
+import ${packageName}.admin.validate.${EntityName}SearchValidate;
+#if($table.genTpl.equals("crud"))
+import ${packageName}.admin.validate.commons.PageValidate;
+import ${packageName}.admin.vo.${EntityName}ListedVo;
+#end
+import ${packageName}.admin.vo.${EntityName}DetailVo;
+import ${packageName}.common.core.AjaxResult;
+#if($table.genTpl.equals("crud"))
+import ${packageName}.common.core.PageResult;
+#end
+import ${packageName}.common.validator.annotation.IDMust;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
+
+@RestController
+@RequestMapping("api/${moduleName}")
+@Api(tags = "${functionName}管理")
+public class ${EntityName}Controller {
+
+    @Resource
+    I${EntityName}Service i${EntityName}Service;
+
+    #if($table.genTpl.equals("crud"))
+    @GetMapping("/list")
+    @ApiOperation(value="${functionName}列表")
+    public AjaxResult<PageResult<${EntityName}ListedVo>> list(@Validated PageValidate pageValidate,
+                                                     @Validated ${EntityName}SearchValidate searchValidate) {
+        PageResult<${EntityName}ListedVo> list = i${EntityName}Service.list(pageValidate, searchValidate);
+        return AjaxResult.success(list);
+    }
+    #else
+    @GetMapping("/list")
+    @ApiOperation(value="${functionName}列表")
+    public AjaxResult<JSONArray> list(@Validated ${EntityName}SearchValidate searchValidate) {
+        JSONArray list = i${EntityName}Service.list(searchValidate);
+        return AjaxResult.success(list);
+    }
+    #end
+
+    @GetMapping("/detail")
+    @ApiOperation(value="${functionName}详情")
+    public AjaxResult<${EntityName}DetailVo> detail(@Validated @IDMust() @RequestParam("id") String id) {
+        ${EntityName}DetailVo detail = i${EntityName}Service.detail(id);
+        return AjaxResult.success(detail);
+    }
+
+    @Log(title = "${functionName}新增")
+    @PostMapping("/add")
+    @ApiOperation(value="${functionName}新增")
+    public AjaxResult<Object> add(@Validated @RequestBody ${EntityName}CreateValidate createValidate) {
+        i${EntityName}Service.add(createValidate);
+        return AjaxResult.success();
+    }
+
+    @Log(title = "${functionName}编辑")
+    @PostMapping("/edit")
+    @ApiOperation(value="${functionName}编辑")
+    public AjaxResult<Object> edit(@Validated @RequestBody ${EntityName}UpdateValidate updateValidate) {
+        i${EntityName}Service.edit(updateValidate);
+        return AjaxResult.success();
+    }
+
+    @Log(title = "${functionName}删除")
+    @PostMapping("/del")
+    @ApiOperation(value="${functionName}删除")
+    public AjaxResult<Object> del(@RequestBody String id) {
+        #set($AttrName=$primaryKey.substring(0,1).toUpperCase() + ${primaryKey.substring(1)})
+        i${EntityName}Service.del(id);
+        return AjaxResult.success();
+    }
+
+}

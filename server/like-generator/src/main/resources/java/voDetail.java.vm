@@ -1,0 +1,36 @@
+package ${packageName}.admin.vo;
+
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
+
+import java.io.Serializable;
+#foreach ($column in $columns)
+#if ($column.javaType.equals("BigDecimal"))
+import java.math.BigDecimal;
+#end
+#if ($column.javaType.equals("Date"))
+import java.util.Date;
+#end
+#end
+
+@Data
+@ApiModel("${functionName}详情Vo")
+public class ${EntityName}DetailVo implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+#foreach ($column in $columns)
+#if($column.isEdit==1 || $column.isPk==1)
+    #if($dateFields.contains($column.columnName))
+    @ApiModelProperty(value = "${column.columnComment}")
+    private String ${column.javaField};
+    #else
+    @ApiModelProperty(value = "${column.columnComment}")
+    private ${column.javaType} ${column.javaField};
+    #end
+
+#end
+#end
+
+}

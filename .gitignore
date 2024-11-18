@@ -1,0 +1,10 @@
+.idea
+*.iws
+*.iml
+*.ipr
+*.tar
+*.gz
+target/
+/public/uploads/*
+!/public/uploads/index.html
+*.yml
