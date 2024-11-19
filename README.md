@@ -33,38 +33,38 @@
 - **步骤1**：启动并登录Mysql，创建编码为utf8mb4的数据库，导入项目中/sql/ai_xmg.sql文件。
 - **步骤2**：打开文件“/server/like-admin/src/main/resources/application-dev.yml”。
 - **步骤3**：找到datasource项，修改url项的地址为数据库ip地址，地址“/”后面为数据库名称，username项为数据库账号，password项为数据密码，然后保存。 
-![image/1.png](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/1.png](此处需补充对应图片路径或对图片内容进行文字描述)
 
 
 ### Redis缓存配置
 - **步骤1**：启动Redis。
 - **步骤2**：打开之前复制的文件“/server/like-admin/src/main/resources/application-dev.yml”。
 - **步骤2**：找到redis项，修改host项为Redis的地址，port项为redis的端口，有密码填写密码，无密码则留空，然后保存。 
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/2.png](此处需补充对应图片路径或对图片内容进行文字描述)
 
 ## 三、运行PC端后台
 - 同理，修改like-front数据库和redis配置，如下图所示：
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/3.png](此处需补充对应图片路径或对图片内容进行文字描述)
 - 找到LikeFrontApplication，右键运行即可。
 - 后台运行的接口为8084，启动成功如下：
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/4.png](此处需补充对应图片路径或对图片内容进行文字描述)
 
 ## 四、运行admin前端
 1. 用vscode打开admin前端项目，配置请求配置，如果附件配置为本地，需要配置nginx的代理地址，即http://localhost:8086/
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/5.png](此处需补充对应图片路径或对图片内容进行文字描述)
 2. **运行步骤**：
     - **一、安装依赖包，执行命令**：npm install
     - **二、运行**：npm run dev
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/66.png](此处需补充对应图片路径或对图片内容进行文字描述)
 - 访问地址为：localhost:5173
 - 后台登录密码为123456，如果密码错误，请在数据库中执行以下操作：
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/7.png](此处需补充对应图片路径或对图片内容进行文字描述)
 
 ## 五、运行pc前端
 1. 同样，通过vscode打开pc端，配置后台请求地址localhost:8084
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/8.png](此处需补充对应图片路径或对图片内容进行文字描述)
 2. 首先npm install安装依赖，然后npm run dev即可运行项目。
-![图片](此处需补充对应图片路径或对图片内容进行文字描述)
+![https://github.com/xmgcode/xmgai-like/blob/main/image/9.png](此处需补充对应图片路径或对图片内容进行文字描述)
 
 
 
