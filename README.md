@@ -21,10 +21,10 @@
 
 ## 一、服务端部署
 ### 环境要求
-- **服务端**：
+**服务端**：
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/1.png)
 
-- **前端**：暂时无法在飞书文档外展示此内容
+**前端**：
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/2.png)
 
 ## 二、运行admin管理后台
@@ -138,8 +138,18 @@
         - 通知设置：√
         - 短信设置：√
 
-# 社区版功能预览图
+# 社区版
+
+## 体验地址
+www.xmgai.cn
+使用手机号注册就行
+
 技术springboot+vue3框架，功能更丰富、体验更佳、相应更快，支持多租户，灵活的后台配置。
+
+# 开源不易，你的star是我更新的动力！！！
+# 开源不易，你的star是我更新的动力！！！
+# 开源不易，你的star是我更新的动力！！！
+
 ## 项目交流群、社区版源码请扫码后获取
 
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/xmgcode88-02.png)
@@ -158,4 +168,17 @@
 ## 项目交流群、社区版源码请扫码后获取
 
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/xmgcode88-02.png)
+
+
+# 开源不易，你的star是我更新的动力！！！
+# 开源不易，你的star是我更新的动力！！！
+# 开源不易，你的star是我更新的动力！！！
+
+# 更多项目文档
+
+![开源版项目文档]([https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/ADjmwTrowic0ojkVl5ScFdfgnUc?fromScene=spaceOverview))
+
+# 免费AI知识库
+
+![免费AI知识库]([https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/S9BwwRcXciCz8BkA4uoc67UBnBf?fromScene=spaceOverview))
 
