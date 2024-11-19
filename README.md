@@ -176,9 +176,9 @@ www.xmgai.cn
 
 # 更多项目文档
 
-![开源版项目文档]([https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/ADjmwTrowic0ojkVl5ScFdfgnUc?fromScene=spaceOverview))
+开源版项目文档：https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/ADjmwTrowic0ojkVl5ScFdfgnUc?fromScene=spaceOverview
 
 # 免费AI知识库
 
-![免费AI知识库]([https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/S9BwwRcXciCz8BkA4uoc67UBnBf?fromScene=spaceOverview))
+免费AI知识库：https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/S9BwwRcXciCz8BkA4uoc67UBnBf?fromScene=spaceOverview
 
