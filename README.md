@@ -5,19 +5,26 @@
 
 
 # 完全开源、免费
-![](https://github.com/xmgcode/xmgai-like/blob/main/image/1.png)
-
 # 完全开源、免费
-![](https://github.com/xmgcode/xmgai-like/blob/main/image/2.png)
+# 先来看看页面
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/111.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/222.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/333.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/444.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/555.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/666.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/777.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/888.png)
+
 
 # 项目部署与运行指南
 
 ## 一、服务端部署
 ### 环境要求
-- **服务端**：暂时无法在飞书文档外展示此内容
-- 
+- **服务端**：
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/1.png)
 - **前端**：暂时无法在飞书文档外展示此内容
-
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/2.png)
 ## 二、运行admin管理后台
 1. **通过IDEA导入后台代码server**
     - **目录结构**：
@@ -78,14 +85,7 @@
 
 
 
-
-
-🎯 **AI 项目搭建**
-1. **功能名称**：
-    - AI 艺术二维码：已开发，见：http://xmgai.cn/artcode。
-    - AI 换脸：已开发，见：http://xmgai.cn/ai/mj/aiswap。
-    - delle3 绘画：已开发，见：http://xmgai.cn/ai/gpt/dalle。
-2. **已开发功能**：
+🎯 **开源版功能**
     - 前端：
         - AI 艺术二维码创作：√
         - AI 创作记录（二维码、换脸）：√
@@ -136,7 +136,19 @@
         - 通知设置：√
         - 短信设置：√
 
-⭐️ **更新日志**
-- 2024 年 8 月 12，上线功能：Dalle3 绘画，版本号：v1.0.2。
-- 2024 年 7 月 29，上线功能：AI 换脸，版本号：v1.0.1。
-- 2024 年 7 月 15，上线功能：AI 艺术二维码，版本号：v1.0.0。
+# 社区版功能预览图
+技术springboot+vue3框架，功能更丰富、体验更佳、相应更快，支持多租户，灵活的后台配置。
+## 源码请扫码后咨询
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/001.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/002.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/003.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/004.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/005.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/006.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/007.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/008.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/009.png)
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/010.png)
+
+## 源码请扫码后咨询
+
