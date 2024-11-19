@@ -1,6 +1,6 @@
 # AI 副业搞钱开源项目
 
-本开源 AI 副业搞钱项目集成了强大功能，包括 AI 艺术二维码生成、AI 换脸、Delle3 绘画等，同时具备个人收付款、手机登录、金额充值及消费记录查询等实用特性。个人可以充分利用 AI 技术实现变现与搞钱，搭建自己的 AI 副业项目，无论是通过独特的艺术二维码为商业推广服务，还是凭借 AI 换脸和绘画功能在娱乐领域开拓商机，都能找到属于自己的破局之路。
+本开源 AI 副业搞钱项目集成了强大功能，包括 AI 艺术二维码生成、AI 换脸、Delle3 绘画等，同时具备个人收付款、手机登录、金额充值及消费记录查询等实用特性。个人可以充分利用 AI 技术实现变现与搞钱，搭建自己的 AI 副业项目，只有有人使用，就有收益实时到账你个人微信，实时真正的躺赢。
 
 
 
@@ -169,6 +169,10 @@ www.xmgai.cn
 
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/xmgcode88-02.png)
 
+
+### 社区版功能列表
+
+功能列表：https://xmgtoagi.feishu.cn/wiki/FNcgwRywfitcO8kVzclchkRanJb?fromScene=spaceOverview
 
 # 开源不易，你的star是我更新的动力！！！
 # 开源不易，你的star是我更新的动力！！！
