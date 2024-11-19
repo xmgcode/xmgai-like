@@ -23,8 +23,10 @@
 ### 环境要求
 - **服务端**：
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/1.png)
+
 - **前端**：暂时无法在飞书文档外展示此内容
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/2.png)
+
 ## 二、运行admin管理后台
 1. **通过IDEA导入后台代码server**
     - **目录结构**：
@@ -138,7 +140,10 @@
 
 # 社区版功能预览图
 技术springboot+vue3框架，功能更丰富、体验更佳、相应更快，支持多租户，灵活的后台配置。
-## 源码请扫码后咨询
+## 项目交流群、社区版源码请扫码后获取
+
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/xmgcode88-02.png)
+
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/001.png)
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/002.png)
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/003.png)
@@ -150,5 +155,7 @@
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/009.png)
 ![](https://github.com/xmgcode/xmgai-like/blob/main/image/010.png)
 
-## 源码请扫码后咨询
+## 项目交流群、社区版源码请扫码后获取
+
+![](https://github.com/xmgcode/xmgai-like/blob/main/image/xmgcode88-02.png)
 
