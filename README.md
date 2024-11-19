@@ -174,9 +174,7 @@ www.xmgai.cn
 
 功能列表：https://xmgtoagi.feishu.cn/wiki/FNcgwRywfitcO8kVzclchkRanJb?fromScene=spaceOverview
 
-# 开源不易，你的star是我更新的动力！！！
-# 开源不易，你的star是我更新的动力！！！
-# 开源不易，你的star是我更新的动力！！！
+
 
 # 更多项目文档
 
@@ -186,3 +184,6 @@ www.xmgai.cn
 
 免费AI知识库：https://github.com/xmgcode/xmgai-like/blob/main/image/010.png](https://xmgtoagi.feishu.cn/wiki/S9BwwRcXciCz8BkA4uoc67UBnBf?fromScene=spaceOverview
 
+# 开源不易，你的star是我更新的动力！！！
+# 开源不易，你的star是我更新的动力！！！
+# 开源不易，你的star是我更新的动力！！！
