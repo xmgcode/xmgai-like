@@ -83,15 +83,15 @@ sa-token:
   is-log: false           # 是否输出操作日志
 
 yungouos:
-  mch_id: 1683816374 #商户号
-  paykey: 2E09C31A2872451D8E34404E45A8F3C7 #yungouOS支付秘钥
+  mch_id: xxx #商户号
+  paykey: xxx #yungouOS支付秘钥
   pay_returnUrl: http://localhost:3000/user/points #微信扫码支付后跳转地址
-  notify_url:  http://pcapi.hc0376.com/api/pay/payBack #微信扫码支付后回调地址
-  appid: YG20240823194140607 #查询地址为：https://www.yungouos.com/#/app/manage 如果只有一个支付场景就不要填
+  notify_url:  http://xxxx/api/pay/payBack #微信扫码支付后回调地址
+  appid: xxxx #查询地址为：https://www.yungouos.com/#/app/manage 如果只有一个支付场景就不要填
 
 xmg:
   api:
-    apikey: AK-s0EhEaoEZUqRKRIKZomZtSXhuVJxJ0P4
+    apikey: xxxxx
     getQrCode: http://api.dataguan.com/api/artqrcode/getQrCode #艺术二维码查询接口
     artcodeModel: http://api.dataguan.com/api/artcode/listtp #模板列表接口
     artcodeCreate: http://api.dataguan.com/api/artqrcode/createQrCode #艺术二维码生成接口

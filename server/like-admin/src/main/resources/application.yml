@@ -100,7 +100,7 @@ task:
 xmg:
   api:
     imageUrl: http://image.dataguan.com/ #艺术二维码查询接口
-    apikey: AK-s0EhEaoEZUqRKRIKZomZtSXhuVJxJ0P4
+    apikey: xxxxx
     artcodeModel: http://api.dataguan.com/api/artcode/listtp #模板列表接口
     qrImageUrl: http://api.dataguan.com/api/artqrcode/getQrCode #查询艺术二维码生成结果
 
