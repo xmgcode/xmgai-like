@@ -1,0 +1,25 @@
+# 项目配置
+like:
+  upload-directory: /monkey/xmgai/file # 上传目录
+
+# 框架配置
+spring:
+  # 数据源配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ai_xmg?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    type: com.zaxxer.hikari.HikariDataSource # 数据源类型
+    driver-class-name: com.mysql.jdbc.Driver # MySql的驱动
+    username: root # 数据库账号
+    password: root # 数据库密码
+  # Redis配置
+  redis:
+    host: localhost   # Redis服务地址
+    port: 6379        # Redis端口
+    password: rd@741852        # Redis密码
+    #password:
+    database: 0       # 数据库索引
+
+# Mybatis-plus配置 【是否开启SQL日志输出】
+#mybatis-plus:
+#    configuration:
+#      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
